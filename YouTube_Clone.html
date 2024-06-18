@@ -1,0 +1,381 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <title>YouTube Clone</title>
+
+    <head>
+        <!-- Font Style Section refered from Google Fonts -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap" rel="stylesheet">
+
+        <!-- External files Linked Section -->
+
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+
+    <body>
+        <!-- Main Header Section -->
+
+        <div class="header">
+
+            <!-- Left Section of Header consisting YouTube Logo and Hamburger Icon -->
+            <div class="left_section">
+                <img class="hamburger_menu" src="Icons/hamburger-menu.svg">
+                <img class="youtube_logo" src="Icons/youtube-logo.svg">
+            </div>
+
+            <!-- Middle Section of Header consisting Search Box and Voice Search Button -->
+            
+            <div class="middle_section">
+                <input class="search_box" type="text" placeholder="Search">
+                
+                <button class="search_button">
+                    <img class="search_icon" src="Icons/search.svg">
+                    <div class="tool_tip">Search</div>
+                </button>
+
+                <button class="voice_search_icon">
+                    <img  src="Icons/voice-search-icon.svg">
+                    <div class="tool_tip">Voice Search</div>
+                </button>
+            </div>
+        
+            <!-- Right Section of Header Consisting Notification,Uplaod, More apps, Channel Pic -->
+
+            <div class="right_section">
+                <div class="video_notification">
+                    <div class="notification_number">3</div>
+                    <img  class="notifications" src="Icons/notifications.svg">
+                    <div class="tool_tip">notifications</div>
+                </div>
+
+                <div class="upload_button">
+                    <img  class="upload" src="Icons/upload.svg">
+                    <div class="tool_tip">Add</div>
+                </div>
+
+                <div class="app_button">
+                    <img  class="youtube_apps" src="Icons/youtube-apps.svg">
+                    <div class="tool_tip">More apps</div>
+                </div>
+
+                <div class="channel">
+                    <img  class="my_channel" src="Channel_pic.jpg">
+                    <div class="tool_tip">Channel</div>
+                </div>
+            </div>
+        </div>
+            
+        <!-- Side Bar section consisting Few Icons -->
+
+        <div class="sidebar">
+            <div class="sidebar_link">
+                <img src="Icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar_link">
+                <img src="Icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar_link">
+                <img src="Icons/subscriptions.svg">
+                <div>Subscription</div>
+            </div>
+            <div class="sidebar_link">
+                <img src="Icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div  class="sidebar_link">
+                <img src="Icons/youtube-music.svg">
+                <div>YouTube Musics</div>
+            </div>
+            <div class="sidebar_link">
+                <img src="Icons/library.svg">
+                <div>Library</div>
+            </div>
+        </div>
+
+
+        <!-- Main Content starts from Here -->
+
+            <!-- First grid -->
+            <div class="video_grid">
+                <div class="video_preview">
+                    <div class="video_thumbnail">
+                        <img class="thumbnails" src="images/thumbnail-1.webp">
+                        <div class="video_time">
+                            14:20
+                        </div>
+                    </div>
+    
+                    <div class="video_info_grid">
+                        <div class="channel_pic">
+                            <img  class="channel" src="images/channel-1.jpeg">
+                        </div>
+    
+                        <div class="vidoe_info">
+                            <p class="video_title">
+                                Talking tech and AI with Google CEO Sundar Pichai!
+                            </p>
+                            
+                            <p class="video_author">
+                                Marques Brownlee
+                            </p>
+                            
+                            <p class="video_stats">
+                                3.4M views &#183; 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- second grid -->
+                <div class="video_preview">
+                        <div class="video_thumbnail">
+                        <img class="thumbnails" src="images/thumbnail-2.webp">
+                        <div class="video_time">
+                            8:22
+                        </div>
+                    </div>
+    
+                    <div class="video_info_grid">
+                        <div class="channel_pic">
+                            <img  class="channel" src="images/channel-2.jpeg">
+                        </div>
+    
+                        <div class="vidoe_info">
+                            <p class="video_title">
+                                Try Not To Laugh Challenge #9
+                            </p>
+                            
+                            <p class="video_author">
+                                Markipilet
+                            </p>
+                            
+                            <p class="video_stats">
+                                19M views &#183; 4 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                 <!-- Third grid -->
+                <div class="video_preview">
+                        <div class="video_thumbnail">
+                        <img class="thumbnails" src="images/thumbnail-3.webp">
+                        <div class="video_time">
+                            22:09
+                        </div>
+                    </div>
+    
+                    <div class="video_info_grid">
+                        <div class="channel_pic">
+                            <img  class="channel" src="images/channel-4.jpeg">
+                        </div>
+    
+                        <div class="vidoe_info">
+                            <p class="video_title">
+                                The Simple Math Problem No one Can Solve-Collatz Conjecture
+                            </p>
+                            
+                            <p class="video_author">
+                                Veritasium
+                            </p>
+                            
+                            <p class="video_stats">
+                                18M views &#183; 4 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Fourth grid -->
+                <div class="video_preview">
+                       <div class="video_thumbnail">
+                        <img class="thumbnails" src="images/thumbnail-4.webp">
+                        <div class="video_time">
+                            11.17
+                        </div>
+                    </div>
+    
+                    <div class="video_info_grid">
+                        <div class="channel_pic">
+                            <img  class="channel" src="images/channel-5.jpeg">
+                        </div>
+    
+                        <div class="vidoe_info">
+                            <p class="video_title">
+                                Kadane's Algorithm to Maximum Sum Subarray Problem
+                            </p>
+                            
+                            <p class="video_author">
+                                CS Dojo
+                            </p>
+                            
+                            <p class="video_stats">
+                                735k views &#183; 5 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Fifth grid -->
+                <div class="video_preview">
+                        <div class="video_thumbnail">
+                        <img class="thumbnails" src="images/thumbnail-5.webp">
+                        <div class="video_time">
+                            19:59
+                        </div>
+                    </div>
+    
+                    <div class="video_info_grid">
+                        <div class="channel_pic">
+                            <img  class="channel" src="images/channel-6.jpeg">
+                        </div>
+    
+                        <div class="vidoe_info">
+                            <p class="video_title">
+                                Anything You Can Fit In The Circle I'll Pay For
+                            </p>
+                            
+                            <p class="video_author">
+                                MrBeast
+                            </p>
+                            
+                            <p class="video_stats">
+                                141M views &#183; 1 year ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                    <!-- Sixth grid -->
+                <div class="video_preview">
+                      <div class="video_thumbnail">
+                        <img class="thumbnails" src="images/thumbnail-6.webp">
+                        <div class="video_time">
+                            10:13
+                        </div>
+                    </div>
+    
+                    <div class="video_info_grid">
+                        <div class="channel_pic">
+                            <img  class="channel" src="images/channel-7.jpeg">
+                        </div>
+    
+                        <div class="vidoe_info">
+                            <p class="video_title">
+                                Why Planes Don't Fly Over Tibet
+                            </p>
+                            
+                            <p class="video_author">
+                                RealLifeLore
+                            </p>
+                            
+                            <p class="video_stats">
+                                6.6M views &#183; 1 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                    <!--7th grid -->
+                <div class="video_preview">
+                      <div class="video_thumbnail">
+                        <img class="thumbnails" src="images/thumbnail-7.webp">
+                        <div class="video_time">
+                            13:17
+                        </div>
+                    </div>
+    
+                    <div class="video_info_grid">
+                        <div class="channel_pic">
+                            <img  class="channel" src="images/channel-9.jpeg">
+                        </div>
+    
+                        <div class="vidoe_info">
+                            <p class="video_title">
+                                The SECRET to Super Human STRENGTH
+                            </p>
+                            
+                            <p class="video_author">
+                                ThenX
+                            </p>
+                            
+                            <p class="video_stats">
+                                20M views &#183; 3 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                    <!-- Eighth grid -->
+                <div class="video_preview">
+    
+                    <div class="video_thumbnail">
+                        <img class="thumbnails" src="images/thumbnail-8.webp">
+                        <div class="video_time">
+                            4:51
+                        </div>
+                    </div>
+    
+                    <div class="video_info_grid">
+                        <div class="channel_pic">
+                            <img  class="channel" src="images/channel-11.jpeg">
+                        </div>
+    
+                        <div class="vidoe_info">
+                            <p class="video_title">
+                                Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+                            </p>
+                            
+                            <p class="video_author">
+                                Destination Tips
+                            </p>
+                            
+                            <p class="video_stats">
+                                3M views &#183; 1 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Ninth grid -->
+                    <div class="video_preview">
+    
+                        <div class="video_thumbnail">
+                            <img class="thumbnails" src="images/thumbnail-9.webp">
+                            <div class="video_time">
+                                4.57
+                            </div>
+                        </div>
+        
+                        <div class="video_info_grid">
+                            <div class="channel_pic">
+                                <img  class="channel" src="images/channel-12.jpeg">
+                            </div>
+        
+                            <div class="vidoe_info">
+                                <p class="video_title">
+                                    What would happen  if you didn't drink water?-Mia Nacamulli
+                                </p>
+                                
+                                <p class="video_author">
+                                    TED-Ed
+                                </p>
+                                
+                                <p class="video_stats">
+                                    12M views &#183; 5 years ago
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </body>
+      </html>
+
